@@ -1,0 +1,24 @@
+README PROIECT PA - Etapa 3
+
+Medar Andrei, Ivan Vlad, Radoi Razvan, Selea Alexandru
+
+Instructiuni de compilare:
+Makefile-ul se foloseste de CMakeLists.txt din  starter kit pentru generarea
+executabilului. Este necesara instalarea cmake.
+make si make build pentru generarea executabilului
+make run executa ./MyBot
+make clean sterge executabilul MyBot
+
+Structura proietului (modificari fata de etapa trecuta):
+MyBot.cpp : Strategia de atac
+
+Algoritm:
+Am observat ca o strategie ok este sa ii lasam pe ceilalti jucatori sa se
+bata intre ei si sa trimitem navele noastre in zone mai indeparte, adica in
+colturi. De asemenea adversarii tind sa se concentreze pe adversarul cel mai
+mare si nu ataca adversarii mai mici decat tarziu. Astfel botul nostru termina
+mereu ori pe pozitia a doua sau a treia prin intermediul acestei strategii.
+
+Responsabilitatea fiecarui membru al echipei:
+Medar Andrei + Ivan Vlad: tactici de joc
+Selea Alexandru + Radoi Razvan: scris cod
